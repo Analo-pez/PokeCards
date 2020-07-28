@@ -1,0 +1,13 @@
+@import 'vars';
+
+* {
+  list-style-type: none;
+}
+.App {
+  background-color:$color-ligth;
+  padding: 15px;
+}
+ .App-card {
+   border: 1px solid black;
+   background-color: $color-medium;
+ }
