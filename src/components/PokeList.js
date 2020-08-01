@@ -9,6 +9,7 @@ const PokeList = props => {
             </li>);
     });
 
+
     return <ul className="App-List">{items}</ul>;
 };
 
