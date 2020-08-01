@@ -4,15 +4,29 @@
   list-style-type: none;
 }
 .App {
-  background-color:$color-ligth;
   padding: 15px;
 }
+.App-List {
+  display: flex;
+  flex-wrap: wrap;
+}
  .App-card {
-   border: 1px solid black;
+   width: 150px;
+   padding: 10px;
+   border: 1px solid $color-dark;
    background-color: $color-medium;
-   margin-bottom: 10px;
+   border-radius: 10px;
+   margin: 10px;
+   text-transform: capitalize;
+   cursor: pointer;
  }
 .App-img {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
+}
+.App-box {
+  border: 1px solid $color-dark;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
 }
